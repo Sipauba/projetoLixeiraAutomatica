@@ -72,6 +72,5 @@ void loop() {
   if ((tempoContinuo - tempoAnterior) >= (tempoAcionamento * 1000)){
     //essa condição verifica se foi atingido o tempo configurada de abertura da tampa
     servo.write(0); // estado inicial da lixeira (fechada)
-  }
-  
+  }  
 }
