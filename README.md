@@ -1,11 +1,11 @@
 <h1 align="center"> 
-♻️ Lixeira Inteligente com Arduíno
+ <img src="https://github.com/Sipauba/projetoLixeiraAutomatica/blob/main/imagens/banner.png" alt="Lixeira Inteligente com Arduino Pro Mini - Turma Análise e Desenvolvimento de Sistema - FADAM (FACULDADE FADAM)">
+♻️ Lixeira Inteligente com Arduino Pro Mini
 </h1>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> | 
- <a href="#-lista-de-dispositivos">Lista de Dispositivos</a> | 
- <a href="#-lista-de-materiais">Lista de Materiais</a> | 
+ <a href="#-materiais-e-métodos">Materiais e Métodos</a> | 
  <a href="#-prototipação">Prototipação</a> | 
  <a href="#-contribuidores">Contribuidores</a>
 </p>
@@ -13,20 +13,18 @@
 
 ## 💻 Sobre o projeto
 
-Nesse projeto iremos abordar o desenvolvimento de uma Lixeira Inteligente, partindo do básico necessário (abre e fecha pela sensor de aproximação) até a configuração da distância do sensor e do tempo de fechamento da tampa.
+Este projeto apresenta uma lixeira automatizada utilizando componentes eletrônicos e controle por Arduino, visando facilitar a coleta ou contato direto com lixeira em ambientes hospitalares e também visando a acessibilidade para deficientes físicos. 
 
-Este projeto está sendo desenvolvido durante a disciplina de Projeto de Extensão - FADAM.
-*******************
+Neste contexto, foi realizada a adaptação de uma lixeira convencional, de modo que a mesma pudesse responder por proximidade através de um sensor de ultrassônico de distância, e assim realizar o acionamento da tampa de forma automática por meio do acionamento de um servo motor, abrindo e fechando a lixeira sem a necessidade de contato com a mesma e com a possibilidade de ajustar a distância mínima para acionamento e o tempo que a lixeira ficará aberta através de dois potenciômetros. Muitas vezes se faz útil um dispositivo que evita o contato físico do usuário com o objeto, seja por limitações físicas, higiene e dentre outros motivos. 
 
-## 🛠 Lista de Dispositivos:
+Desta forma, visando solucionar este problema, uma lixeira automatizada proporciona os meios necessários para que se faça abertura da tampa sem necessidade de contato físico. Além desta aplicação, também pode-se utilizar em ambientes hospitalares, visando evitar o contato dos profissionais com a lixeira, evitando assim, a contaminação ou transmissão de qualquer tipo de bactéria ou vírus. Os resultados esperados com o protótipo foram satisfatórios.
 
-- 1 Arduíno Uno;
-- 1 Sensor (Ref do Sensor);
-- 1 Micro Servo (Ref do Servo Motor);
-- 2 Potenciômetro
-- Jumpers;
+**Objetivos Específicos**
+- Desenvolver uma lixeira eletrônica interativa;
+- Acessibilidade para deficientes físicos;
+- Dispositivo que evita o contato físico do usuário.
 
-## 🛠 Lista de Materiais:
+## 🛠 Materiais e Métodos:
 
 - 1 Balde;
 
@@ -70,3 +68,5 @@ Este projeto está sendo desenvolvido durante a disciplina de Projeto de Extens�
     <img src="https://github.com/Sipauba/projetoLixeiraAutomatica/blob/main/imagens/icons8-linkedin-30.png"></a></td>
   </tr>
 </table>
+
+Este projeto foi desenvolvido durante a disciplina de Projeto de Extensão - FADAM.
