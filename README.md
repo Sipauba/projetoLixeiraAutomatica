@@ -118,7 +118,7 @@ Para este projeto foi utilizado o servo motor MG995. O mesmo possui um custo de 
   <tr>
    <td>
      <img src="https://github.com/Sipauba/projetoLixeiraAutomatica/blob/main/imagens/materiais%20e%20metodos/display-lcd.png" alt="Display LCD"/>
-           <br/>Figura 5. Display LCD.
+           <br/>Figura 5. Display LCD 16x2 com módulo I2C.
    </td>
     
    <td>
